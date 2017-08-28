@@ -11,7 +11,7 @@ The experiments concerns OntoGenesis, an architecture for semantically enriching
 * `Sources` Sources codes for the data service developed for experiment purposal. 
 It also contains the .jar file of data service, which has a SpringBoot application.
 * `DataService_Repository.zip` The data service repository. It contains all data (in JSON) regarding police reports of SSP/SP used in the experiments.
-* `AROMA-PARIS-OntoGenesis-data.zip` All data used in the experiments of Ontology Matchers (AROMA and PARIS)
-* `xxxxxxxxxxxxxx.zip` The jar executable file of OntoGenesis API, which also includes the Engine
+* `AROMA-PARIS-OntoGenesis-data.zip` All data used in the experiments of Ontology Matchers (AROMA and PARIS). Note that the dbpedia-tdb was removed due to its huge size not acceptable in git repository.
+* `ontogenesis-api-jar` Contains the executable jar file of OntoGenesis API, which also includes the Engine
 * `SourceRepo` Contains the URL of all source codes available.
 * `SetupInstructions` All the instructions to set up the data service and run OntoGenesis.
