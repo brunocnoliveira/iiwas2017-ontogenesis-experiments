@@ -1,0 +1,4 @@
+server.port: 8081
+dataDir: "../data/CriminalReportsRepository/"
+config.uriOntogenesis: "http://localhost:8090/ontogenesis-api"
+config.microserviceDescriptionFile: "microserviceDescriptionSynt.jsonld"
