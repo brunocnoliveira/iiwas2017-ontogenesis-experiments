@@ -8,10 +8,10 @@ Instructions to run data service of police reports and OntoGenesis API.
 ## Setup Instructions
 
 1. Configure OntoGenesis API:
-    1.1 Obtaining the config and repository files:
+    .1 Obtaining the config and repository files:
 	 - Download the application.yml and dfas-xx.db file in the repository of OntoGenesis API.
 	 - The "xx" means the percent of DBpedia used in the index repository. For instance, dfas-40.db is the index repository that contains Geonames (Brazil and country names) and the 40% most frequent terms of DBpedia person data.
-    1.2 Setting the application.yml file:
+    .2 Setting the application.yml file:
 	 - `server.port` port that OntoGenesis API will run
 	 - `config.maxNumberRepresentationsBuffer` the representation buffer size. It represents the maximium of representations that OntoGenesis will store before performing the enrichment.
 	 - `config.propertiesIntersectionThreshold` value from 0 to 1. The strength threshold for the equivalent properties.
