@@ -4,7 +4,8 @@ The experiments concerns OntoGenesis, an architecture for semantically enriching
 
 
 ## Repository Info
-* `Results` Contains all the results in .csv of experiments: 
+
+* `[Results](https://github.com/brunocnoliveira/iiwas2017-ontogenesis-experiments/tree/master/Results)` Contains all the results in .csv of experiments: 
   * DBpedia Subset Size Pilot Experiment (the 20%, 40%, 60% most frequent terms of DBpedia person data)
   * Thresholds Comparison (0.4, 0.6, 0.8)
   * Ontology Matchers Comparison (AROMA and PARIS)
