@@ -9,10 +9,10 @@ The experiments concerns OntoGenesis, an architecture for semantically enriching
   * DBpedia Subset Size Pilot Experiment (the 20%, 40%, 60% most frequent terms of DBpedia person data)
   * Thresholds Comparison (0.4, 0.6, 0.8)
   * Ontology Matchers Comparison (AROMA and PARIS)
-* `Sources` [Source codes](https://github.com/brunocnoliveira/iiwas2017-ontogenesis-experiments/tree/master/Sources/criminal-report-person-dataservice) for the data service desgined for experimental purposes. 
+* `Sources` Source codes for the [Data Service](https://github.com/brunocnoliveira/iiwas2017-ontogenesis-experiments/tree/master/Sources/criminal-report-person-dataservice) desgined for experimental purposes. 
 It also contains the .jar file of data service, which has a SpringBoot application.
 * `DataService_Repository.zip` The data service repository. It contains all data (in JSON) regarding police reports of SSP/SP (Secretariat of Public Security of the state of São Paulo, Brazil) used in the experiments.
 * `AROMA-PARIS-OntoGenesis-data.zip` All data used in the experiments of Ontology Matchers (AROMA and PARIS). Note that the dbpedia-tdb has been removed due to its huge size not acceptable in git repository.
 * `ontogenesis-api-jar.zip` Contains the executable jar file of OntoGenesis API, which also includes the Engine
-* `SourceRepo` Contains the URL of all other source codes available.
-* `SetupInstructions` All the instructions to set up the data service and run OntoGenesis.
+* `SourceRepo` Contains the URL of all other [source codes](https://github.com/brunocnoliveira/iiwas2017-ontogenesis-experiments/blob/master/SourceRepo) available.
+* `SetupInstructions` All the [instructions](https://github.com/brunocnoliveira/iiwas2017-ontogenesis-experiments/blob/master/SetupInstructions.md) to set up the data service and run OntoGenesis.
