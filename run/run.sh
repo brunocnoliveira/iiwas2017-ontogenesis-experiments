@@ -28,7 +28,7 @@ for threshold in 80 60; do
     sed -i s/config.propertiesIntersectionThreshold:.*/config.propertiesIntersectionThreshold: 0.$threshold/ ontogenesis/application.yml
     for i in {1..7}; do
         pushd ontogenesis
-        java -jar ontogenesis-api-0.0.1-SNAPSHOT.jar &
+        java -jar ontogenesis-api.jar &
         ONTOGENESIS_PID=$!
         popd
         
