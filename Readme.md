@@ -18,6 +18,6 @@ The experiments concerns OntoGenesis, an architecture for semantically enriching
 
 
 ## Footnotes
-<a name="footnote1"><sup>1</sup></a>AROMA: Jérôme David. [Association Rule Ontology Matching Approach](http://dx.doi.org/10.4018/jswis.2007040102). International Journal
-on Semantic Web and Information Systems 3, 2 (2007), 27–49. \n
-<a name="footnote2"><sup>1</sup></a>PARIS: 
+<a name="footnote1"><sup>1</sup></a>AROMA: Jérôme David. [Association Rule Ontology Matching Approach](http://dx.doi.org/10.4018/jswis.2007040102). International Journal on Semantic Web and Information Systems 3, 2 (2007), 27–49.
+
+<a name="footnote2"><sup>2</sup></a>PARIS: Fabian M Suchanek, Serge Abiteboul and Pierre Senellart. [Paris: Probabilistic alignment of relations, instances, and schema](http://dx.doi.org/10.14778/2078331.2078332). Procedures of the VLDB Endowment 5, 3 (2011), 157–168.
