@@ -19,5 +19,5 @@ The experiments concerns OntoGenesis, an architecture for semantically enriching
 
 ## Footnotes
 <a name="footnote1"><sup>1</sup></a>AROMA: Jérôme David. [Association Rule Ontology Matching Approach](http://dx.doi.org/10.4018/jswis.2007040102). International Journal
-on Semantic Web and Information Systems 3, 2 (2007), 27–49.
+on Semantic Web and Information Systems 3, 2 (2007), 27–49. \n
 <a name="footnote2"><sup>1</sup></a>PARIS: 
