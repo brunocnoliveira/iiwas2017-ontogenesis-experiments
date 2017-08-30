@@ -1,0 +1,16 @@
+{
+ "semanticResources": [
+  {
+   "entity": "http://example#Person",
+   "uriTemplates": [
+    {
+     "method": "GET",
+     "uri": "/rg{?rg}&ontology=LocalOntology",
+     "parameters": {
+      "rg": "http://example#rg"
+     }
+    }
+   ]
+  }
+ ]
+}

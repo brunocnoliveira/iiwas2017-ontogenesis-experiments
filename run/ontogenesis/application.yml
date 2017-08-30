@@ -1,0 +1,8 @@
+server.port: 8090
+config.maxNumberRepresentationsBuffer: 0
+config.propertiesIntersectionThreshold: 0.8
+config.externalSourceBD: dfas-40.db
+config.mostFrequentDatasetSize: 0.4
+config.alignatorEnable: false
+config.ontologyMaxIndividuals: 100
+config.minAlignmentStrength: 0
