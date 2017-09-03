@@ -22,7 +22,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.google.gson.Gson;
 
-import br.ufsc.inf.lapesd.criminal.report.person.microservice.config.OntoGenesisAdapter;
+import br.ufsc.inf.lapesd.criminal.report.person.microservice.config.OntoGenesisAdapter2;
 import br.ufsc.inf.lapesd.criminal.report.person.microservice.model.CriminalReport;
 import br.ufsc.inf.lapesd.criminal.report.person.microservice.model.Person;
 import br.ufsc.inf.lapesd.criminal.report.person.microservice.report.OntologyReport;
@@ -40,7 +40,7 @@ public class PersonEndpoint {
 	@Autowired
     private ReportService reportService;
 	@Autowired
-	private OntoGenesisAdapter ontoGenesisAdapter;
+	private OntoGenesisAdapter2 ontoGenesisAdapter;
     
     @Context
     private UriInfo uriInfo;
