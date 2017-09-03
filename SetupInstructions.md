@@ -16,7 +16,6 @@ Instructions to run data service of police reports and OntoGenesis API.
     - `config.maxNumberRepresentationsBuffer` the representation buffer size. It represents the maximium of representations that OntoGenesis will store before performing the enrichment.
     - `config.propertiesIntersectionThreshold` value from 0 to 1. The strength threshold for the equivalent properties.
     - `config.externalSourceBD` the index repository file path+name (dfas-xx.db)
-    - `config.mostFrequentDatasetSize` Not required. The most frequent terms is already in the index repository.
     - `config.alignatorEnable` Not required. This feature is under development yet.
     - `config.ontologyMaxIndividuals` Not required. This feature is under development yet.
     - `config.minAlignmentStrength` Not required. This feature is under development yet.
