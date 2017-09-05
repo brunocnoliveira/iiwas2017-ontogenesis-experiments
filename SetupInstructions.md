@@ -32,7 +32,7 @@ Instructions to run data service of police reports and OntoGenesis API.
 
 1. First, run OntoGenesis API:
  ```bash
- java -jar ontogenesis-api-0.0.1-SNAPSHOT.jar 
+ java -jar ontogenesis-api.jar 
  ```
  
 2. Second, run Data Service:
