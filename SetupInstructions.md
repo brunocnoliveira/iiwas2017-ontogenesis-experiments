@@ -41,8 +41,19 @@ Instructions to run data service of police reports and OntoGenesis API.
  ```
 
 3. Performing an HTTP request (GET):
- - `http://localhost:8081/criminal-report-person-microservice/person/startOntoGenesisExperiment?requisitions=10`
- where `requisitions` is the number of requests that the dataService will perform to OntoGenesis.
+ - In order to faciliate sending a high number of requests to the data service, we have created an API, which the client/consumer sends the number of requests, and the data service automatically randomly selects different data from the repository and sends to OntoGenesis. The URI is as follows:
+ - `http://localhost:8081/criminal-report-person-microservice/person/startOntoGenesisExperiment?requisitions={number}`
+ where `{number}` is the number of requests that the dataService will perform to OntoGenesis.
+
+4. Getting any police report:
+ - `http://localhost:8081/criminal-report-person-microservice/report/{idReport}`
+ where `{idReport}` is the identificatino number of a police report.
+ - How to know the id of a police report? You can find all the police reports in the folder data (extracting the [DataService_Repository.zip](https://github.com/brunocnoliveira/iiwas2017-ontogenesis-experiments/blob/master/DataService_Repository.zip))
+
+### Automating the steps
+
+1. We have provided a script (run.sh located in the run directory) to facilitate the process of running experiments. However, it is worthnoting that we have run all experiments mannualy one by once (setting the requisition number to 100, in criminal-report-person-microservice/person/startOntoGenesisExperiment API). One should unzip the necessary folders, follow the steps in the file and run it. Make sure all the configured ports are available in the OS.
+
 
 ## Analyze Reports
 
