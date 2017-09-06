@@ -47,7 +47,7 @@ Instructions to run data service of police reports and OntoGenesis API.
 
 4. Getting any police report:
  - `http://localhost:8081/criminal-report-person-microservice/report/{idReport}`
- where `{idReport}` is the identificatino number of a police report.
+ where `{idReport}` is the identification number of a police report.
  - How to know the id of a police report? You can find all the police reports in the folder data (extracting the [DataService_Repository.zip](https://github.com/brunocnoliveira/iiwas2017-ontogenesis-experiments/blob/master/DataService_Repository.zip))
 
 ### Automating the steps
