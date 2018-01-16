@@ -1,6 +1,5 @@
 # OntoGenesis Experiments
-This public repository encompasses the source codes as well as the results obtained in the experiments performed for the iiWAS 2017 (19th International Conference on Information Integration and Web-based Applications & Services).
-The experiments concerns OntoGenesis, an architecture for semantically enriching data service representations.
+This public repository encompasses the source codes as well as the results obtained in the experiments performed with the OntoGenesis, an architecture for semantically enriching data service representations.
 
 
 ## Repository Info
